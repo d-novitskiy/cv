@@ -137,7 +137,7 @@ h2 {
 		padding: 0 15px 10px 50px;
 	}
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width:621px) and (max-width: 900px) {
 	.container {
 		margin: 0;
 	}
@@ -185,7 +185,56 @@ h2 {
 	}
 }
 @media screen and (max-width: 620px) {
+	.container {
+		margin: 0;
+	}
+
+	.header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.avatar {
+		padding: 50px 0;
+		background-color: #fff;
+		max-width: 80vw;
+	}
+	
+	.common-info {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.experience .inner {
+		flex-direction: column;
+	}
+	.contacts {
+		min-width: 300px;
+		max-width: 30%;
+	}
+
 	.education {
 		max-width: 100%;
+	}
+
+	.avatar img {
+		border-radius: 50%;
+		max-width: 100%;
+	}
+
+	.main-info {
+		padding: 10px;
+	}
+
+	.main-info section, .common-info section {
+		padding: 10px 50px;
+	}
+
+	h1 {
+		padding-top: 0;
+	}
+
+	.wrapper {
+		flex-direction: column-reverse;
 	}
 }
