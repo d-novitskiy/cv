@@ -29,6 +29,20 @@ body {
 .header {
 	width: 100%;
 	display: flex;
+	position: relative;
+}
+.link {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	
+}
+.link img{
+	transition: all 0.2s linear;
+}
+.link img:hover {
+	transform: scale(1.2);
+	transition: all 0.2s linear;
 }
 .avatar {
 	background-color: #2c323d;
