@@ -218,6 +218,7 @@ h2 {
 	.common-info {
 		display: flex;
 		flex-wrap: wrap;
+		min-width: 300px;
 	}
 	.experience .inner {
 		flex-direction: column;
