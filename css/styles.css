@@ -59,7 +59,7 @@ body {
 	min-width: 410px;
 }
 .common-info section {
-	padding: 0 35px 30px 100px;
+	padding: 0 35px 30px 70px;
 }
 .common-info a{
 	transition: color .3s;
@@ -76,15 +76,15 @@ body {
 .title::after {
 	content: '';
 	display: block;
-	height: 3px; /* Высота линии */
-	background: #fff; /* Цвет линии */
-	width: 60px; /* Ширина линии до наведения */
-	margin: 10px 0; /* Отступ с боков по центру и сверху */
-	transition: .5s; /* Время, за которое линия возвращается после наведения */
+	height: 3px; 
+	background: #fff; 
+	width: 60px; 
+	margin: 10px 0; 
+	transition: .5s; 
 }
 .title:hover::after{
-	width: 180px; /* Ширина линии при наведении */
-	transition: ease-out .5s; /* Время, за которое линия расширяется при наведении */
+	width: 180px; 
+	transition: ease-out .5s; 
 }
 .main-info .title::after {
 	background: #2c323d;
